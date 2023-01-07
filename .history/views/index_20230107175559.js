@@ -18,7 +18,7 @@ function HomeView() {
 		if (!showResult) {
 			// setIsCheckingInitial(false);
 			setLoadingScan(true);
-			// await delay(4000);
+			await delay(4000);
 			setLoadingScan(false);
 			setShowResult(true);
 		}
@@ -32,7 +32,7 @@ function HomeView() {
 			>
 				<div className={`${showResult ? 'hidden' : ''}`}>
 					<img
-						className="w-[15rem] h-auto mx-auto pt-[7rem] rounded-full"
+						className="w-[15rem] h-auto mx-auto pt-[7rem]"
 						src="/shield.jpg"
 					/>
 				</div>

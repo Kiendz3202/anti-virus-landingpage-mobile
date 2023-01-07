@@ -24,7 +24,7 @@ function ScanResult() {
 	const [trashFile, setTrashFile] = useState(
 		getRandomArbitrary(0.2, 3).toString().slice(0, 3)
 	);
-	const arr = Array.from(Array(30).keys());
+	const arr = Array.from(Array(20).keys());
 
 	const loopAsync = async () => {
 		for (const number of arr) {
@@ -38,7 +38,7 @@ function ScanResult() {
 			setTrashFile(() =>
 				getRandomArbitrary(0.2, 3).toString().slice(0, 3)
 			);
-			await delay(200);
+			await delay(500);
 		}
 		setIsScanning(false);
 	};
@@ -128,7 +128,7 @@ function ScanResult() {
 							<span class="sr-only">Loading...</span>
 						</div>
 					)}
-					<div className="pr-[2rem]">{virus}</div>
+					<div className="pr-[2rem]">{virus}GB</div>
 				</div>
 			</div>
 			{/* tang toc  */}

@@ -32,7 +32,7 @@ function HomeView() {
 			>
 				<div className={`${showResult ? 'hidden' : ''}`}>
 					<img
-						className="w-[15rem] h-auto mx-auto pt-[7rem] rounded-full"
+						className="w-[15rem] h-auto mx-auto pt-[7rem]"
 						src="/shield.jpg"
 					/>
 				</div>

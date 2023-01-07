@@ -18,7 +18,7 @@ function HomeView() {
 		if (!showResult) {
 			// setIsCheckingInitial(false);
 			setLoadingScan(true);
-			// await delay(4000);
+			await delay(4000);
 			setLoadingScan(false);
 			setShowResult(true);
 		}
@@ -32,13 +32,13 @@ function HomeView() {
 			>
 				<div className={`${showResult ? 'hidden' : ''}`}>
 					<img
-						className="w-[15rem] h-auto mx-auto pt-[7rem] rounded-full"
+						className="w-[15rem] h-auto mx-auto pt-[7rem] rounded-full shadow-md"
 						src="/shield.jpg"
 					/>
 				</div>
 				<div
 					onClick={scanHandle}
-					className={`flex items-center justify-center  text-black bg-white font-semibold mx-auto mt-[20rem] h-[12rem] text-[2.8rem] w-[40rem] rounded-full  shadow-xl active:opacity-80 cursor-pointer animate-bounce ${
+					className={`flex items-center justify-center  text-white font-semibold mx-auto mt-[20rem] h-[12rem] text-[2.8rem] w-[40rem] rounded-full bg-[#FF9E43] active:opacity-80 cursor-pointer animate-bounce ${
 						showResult ? 'hidden' : ''
 					}`}
 				>

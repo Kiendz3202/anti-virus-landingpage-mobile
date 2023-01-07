@@ -18,7 +18,7 @@ function HomeView() {
 		if (!showResult) {
 			// setIsCheckingInitial(false);
 			setLoadingScan(true);
-			// await delay(4000);
+			await delay(4000);
 			setLoadingScan(false);
 			setShowResult(true);
 		}
@@ -26,19 +26,19 @@ function HomeView() {
 	return (
 		<div className="h-screen bg-[#F2F3F7]">
 			<div
-				className={` w-full   transition-all ease-in-out duration-[1500ms] ${
+				className={` w-full  bg-[#1C58B1] transition-all ease-in-out duration-[1500ms] ${
 					showResult ? ' h-[0px]' : 'h-screen'
 				}`}
 			>
 				<div className={`${showResult ? 'hidden' : ''}`}>
 					<img
-						className="w-[15rem] h-auto mx-auto pt-[7rem] rounded-full"
+						className="w-[15rem] h-auto mx-auto pt-[7rem]"
 						src="/shield.jpg"
 					/>
 				</div>
 				<div
 					onClick={scanHandle}
-					className={`flex items-center justify-center  text-black bg-white font-semibold mx-auto mt-[20rem] h-[12rem] text-[2.8rem] w-[40rem] rounded-full  shadow-xl active:opacity-80 cursor-pointer animate-bounce ${
+					className={`flex items-center justify-center  text-white font-semibold mx-auto mt-[20rem] h-[12rem] text-[2.8rem] w-[40rem] rounded-full bg-[#FF9E43] shadow-lg active:opacity-80 cursor-pointer animate-bounce ${
 						showResult ? 'hidden' : ''
 					}`}
 				>
