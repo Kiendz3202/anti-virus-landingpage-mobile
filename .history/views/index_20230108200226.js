@@ -51,17 +51,13 @@ function HomeView() {
 						</div>
 					</div>
 				</div>
-				<div
-					className={`text-white text-center mt-[5rem] text-[2.8rem] px-[1rem] font-semibold flex flex-col ${
-						showResult ? 'hidden' : ''
-					}`}
-				>
-					<div className=" animate-bounce">
+				<div className="text-white text-center mt-[5rem] text-[2.8rem] font-semibold flex flex-col">
+					<div>
 						<ArrowUpwardIcon
 							sx={{
-								fontSize: '9rem',
-								// marginLeft: '1.5rem',
-								marginBottom: '1.2rem',
+								fontSize: '4rem',
+								marginLeft: '1.5rem',
+								marginTop: '1.2rem',
 							}}
 						/>
 					</div>

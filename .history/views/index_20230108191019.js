@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import ScanResult from '../components/ScanResult';
 import ScanShield from '../components/ScanShield';
 import { delay } from '../utils/delay';
-import ArrowUpwardIcon from '@mui/icons-material/ArrowUpward';
 
 function HomeView() {
 	// const [isCheckingInitial, setIsCheckingInitial] = useState(true);
@@ -28,8 +27,8 @@ function HomeView() {
 	return (
 		<div className="h-screen bg-[#080533]">
 			<div
-				className={` w-full   transition-all ease-in-out duration-[1500ms]  ${
-					showResult ? ' h-[0px]' : 'h-screen pt-[20rem]'
+				className={` w-full   transition-all ease-in-out duration-[1500ms] pt-[20rem] ${
+					showResult ? ' h-[0px]' : 'h-screen'
 				}`}
 			>
 				<div
@@ -51,26 +50,10 @@ function HomeView() {
 						</div>
 					</div>
 				</div>
-				<div
-					className={`text-white text-center mt-[5rem] text-[2.8rem] px-[1rem] font-semibold flex flex-col ${
-						showResult ? 'hidden' : ''
-					}`}
-				>
-					<div className=" animate-bounce">
-						<ArrowUpwardIcon
-							sx={{
-								fontSize: '9rem',
-								// marginLeft: '1.5rem',
-								marginBottom: '1.2rem',
-							}}
-						/>
-					</div>
-					<div>Ấn quét để kiểm tra virus và tăng tốc máy bạn !</div>
-				</div>
 			</div>
 			{showResult ? (
-				<div className="text-white pt-[5rem]">
-					<ScanShield showResult={showResult} />
+				<div>
+					<ScanShield />
 					<ScanResult />
 				</div>
 			) : (

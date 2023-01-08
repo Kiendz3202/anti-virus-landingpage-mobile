@@ -226,7 +226,7 @@ function ScanResult() {
 							/>
 						</div>
 					</div>
-					<div className="mt-[3rem] text-[2.6rem] font-semibold">
+					<div className="mt-[3rem] text-[2.4rem] font-normal">
 						Tải ứng dụng để diệt tận gốc
 					</div>
 				</div>

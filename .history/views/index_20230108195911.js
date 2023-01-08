@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import ScanResult from '../components/ScanResult';
 import ScanShield from '../components/ScanShield';
 import { delay } from '../utils/delay';
-import ArrowUpwardIcon from '@mui/icons-material/ArrowUpward';
 
 function HomeView() {
 	// const [isCheckingInitial, setIsCheckingInitial] = useState(true);
@@ -51,21 +50,8 @@ function HomeView() {
 						</div>
 					</div>
 				</div>
-				<div
-					className={`text-white text-center mt-[5rem] text-[2.8rem] px-[1rem] font-semibold flex flex-col ${
-						showResult ? 'hidden' : ''
-					}`}
-				>
-					<div className=" animate-bounce">
-						<ArrowUpwardIcon
-							sx={{
-								fontSize: '9rem',
-								// marginLeft: '1.5rem',
-								marginBottom: '1.2rem',
-							}}
-						/>
-					</div>
-					<div>Ấn quét để kiểm tra virus và tăng tốc máy bạn !</div>
+				<div className="text-white text-center mt-[5rem] text-[2.8rem] font-semibold">
+					Ấn quét để kiểm tra virus và tăng tốc máy bạn!
 				</div>
 			</div>
 			{showResult ? (

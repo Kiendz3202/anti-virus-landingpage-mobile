@@ -210,9 +210,7 @@ function ScanResult() {
 				</div>
 			</div>
 			{/* Tai ung dung   */}
-			{isScanning ? (
-				''
-			) : (
+			{!isScanning ?? (
 				<div className="flex flex-col   items-center text-[3.2rem] font-medium mt-[4rem] pb-[3rem]">
 					<div className="flex items-center justify-center bg-[#FF9E43] text-white rounded-full w-[30rem] h-[8rem] active:opacity-60 cursor-pointer animate-bounce">
 						<div>Tải xuống</div>
@@ -226,7 +224,7 @@ function ScanResult() {
 							/>
 						</div>
 					</div>
-					<div className="mt-[3rem] text-[2.6rem] font-semibold">
+					<div className="mt-[3rem] text-[2.4rem] font-normal">
 						Tải ứng dụng để diệt tận gốc
 					</div>
 				</div>

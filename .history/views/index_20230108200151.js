@@ -51,19 +51,9 @@ function HomeView() {
 						</div>
 					</div>
 				</div>
-				<div
-					className={`text-white text-center mt-[5rem] text-[2.8rem] px-[1rem] font-semibold flex flex-col ${
-						showResult ? 'hidden' : ''
-					}`}
-				>
-					<div className=" animate-bounce">
-						<ArrowUpwardIcon
-							sx={{
-								fontSize: '9rem',
-								// marginLeft: '1.5rem',
-								marginBottom: '1.2rem',
-							}}
-						/>
+				<div className="text-white text-center mt-[5rem] text-[2.8rem] font-semibold">
+					<div>
+						<ArrowUpwardIcon />
 					</div>
 					<div>Ấn quét để kiểm tra virus và tăng tốc máy bạn !</div>
 				</div>

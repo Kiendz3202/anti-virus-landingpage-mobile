@@ -52,7 +52,7 @@ function ScanResult() {
 	// const trashFile = getRandomArbitrary(0.2, 3).toString().slice(0, 3);
 	// console.log(trashFile);
 	return (
-		<div className="mt-[3rem]">
+		<div className="mt-[5rem]">
 			{/* big file  */}
 			<div className="flex justify-between  h-[12rem] items-center text-[2.8rem] font-medium ">
 				<div>
@@ -210,27 +210,23 @@ function ScanResult() {
 				</div>
 			</div>
 			{/* Tai ung dung   */}
-			{isScanning ? (
-				''
-			) : (
-				<div className="flex flex-col   items-center text-[3.2rem] font-medium mt-[4rem] pb-[3rem]">
-					<div className="flex items-center justify-center bg-[#FF9E43] text-white rounded-full w-[30rem] h-[8rem] active:opacity-60 cursor-pointer animate-bounce">
-						<div>Tải xuống</div>
-						<div>
-							<FileDownloadIcon
-								sx={{
-									fontSize: '4rem',
-									marginLeft: '1.5rem',
-									marginTop: '1.2rem',
-								}}
-							/>
-						</div>
-					</div>
-					<div className="mt-[3rem] text-[2.6rem] font-semibold">
-						Tải ứng dụng để diệt tận gốc
+			<div className="flex flex-col   items-center text-[3.2rem] font-medium mt-[4rem] pb-[3rem]">
+				<div className="flex items-center justify-center bg-[#FF9E43] text-white rounded-full w-[30rem] h-[8rem] active:opacity-60 cursor-pointer animate-bounce">
+					<div>Tải xuống</div>
+					<div>
+						<FileDownloadIcon
+							sx={{
+								fontSize: '4rem',
+								marginLeft: '1.5rem',
+								marginTop: '1.2rem',
+							}}
+						/>
 					</div>
 				</div>
-			)}
+				<div className="mt-[3rem] text-[2.4rem] font-normal">
+					Tải ứng dụng để diệt tận gốc
+				</div>
+			</div>
 		</div>
 	);
 }
