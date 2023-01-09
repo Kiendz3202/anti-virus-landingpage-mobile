@@ -15,7 +15,8 @@ function ScanShield({ showResult }) {
 	return (
 		<div
 			className={`transition-all ease-in-out duration-[1500ms] ${
-				display ? 'h-[38rem]' : 'h-[0rem] opacity-0'
+				display ? 'h-[38rem]' : 'h-[38rem]'
+				// display ? 'h-[38rem]' : 'h-[0rem] opacity-0'
 			}`}
 		>
 			<div
