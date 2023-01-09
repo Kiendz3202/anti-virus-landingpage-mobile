@@ -29,7 +29,7 @@ function ScanShield({ showResult }) {
 							<div className="  bg-gradient-to-r from-[#2483EA] to-[#1A58FD] h-[30rem] w-[30rem] rounded-full flex items-center justify-center ">
 								<div className='className=" bg-[#070446] h-[28rem] w-[28rem] rounded-full flex items-center justify-center "'>
 									<img
-										src="/shieldLogo.png"
+										src="/shieldLogo.jpg"
 										className={`${
 											stopAnimation ? '' : 'animate-ping'
 										}`}

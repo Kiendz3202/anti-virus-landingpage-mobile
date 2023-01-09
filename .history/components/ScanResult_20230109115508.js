@@ -214,11 +214,8 @@ function ScanResult() {
 				''
 			) : (
 				<div className="flex flex-col   items-center text-[3.2rem] font-medium mt-[4rem] pb-[3rem]">
-					<a
-						target="_blank"
-						href="https://l.facebook.com/l.php?u=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom.ansecurity%26referrer%3Dutm_source%253Dapps.facebook.com%2526utm_campaign%253Dfb4a%2526utm_content%253D%25257B%252522app%252522%25253A0%25252C%252522t%252522%25253A1673240025%25252C%252522source%252522%25253Anull%25257D%26fbclid%3DIwAR3_SLyqmysBZwKlKcT3M9LovespT_GlFciRgXZkox44J-s5qXhZwEw52GM&h=AT0H90I_YYPtKhwlyeiCkntYTBMpJxm4-RX-5mHEdCWb-RDZZQUcNfFrFrCzM3K2oO2pYz9scU3y79ED-1pUDo7AQGYkr0aNYy7XvMocr0_5vK6kVUctS6igicuO7wYvP3zWH2Y1OAWoa1g"
-					>
-						<div className="flex items-center justify-center bg-[#FF9E43] text-white rounded-full w-[30rem] h-[8rem] active:opacity-60 cursor-pointer animate-bounce">
+					<a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom.ansecurity%26referrer%3Dutm_source%253Dapps.facebook.com%2526utm_campaign%253Dfb4a%2526utm_content%253D%25257B%252522app%252522%25253A0%25252C%252522t%252522%25253A1673240025%25252C%252522source%252522%25253Anull%25257D%26fbclid%3DIwAR3_SLyqmysBZwKlKcT3M9LovespT_GlFciRgXZkox44J-s5qXhZwEw52GM&h=AT0H90I_YYPtKhwlyeiCkntYTBMpJxm4-RX-5mHEdCWb-RDZZQUcNfFrFrCzM3K2oO2pYz9scU3y79ED-1pUDo7AQGYkr0aNYy7XvMocr0_5vK6kVUctS6igicuO7wYvP3zWH2Y1OAWoa1g">
+						<div className="flex items-center justify-center bg-[#FF9E43] text-white rounded-full w-[30rem] h-[8rem] active:opacity-60 cursor-pointer animate-bounce cursor-pointer">
 							<div>Tải xuống</div>
 							<div>
 								<FileDownloadIcon

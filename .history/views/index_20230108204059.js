@@ -26,10 +26,10 @@ function HomeView() {
 		}
 	};
 	return (
-		<div className="  h-screen bg-[#080533]">
+		<div className=" min-h-full h-screen bg-[#080533]">
 			<div
 				className={` w-full   transition-all ease-in-out duration-[1500ms]  ${
-					showResult ? ' h-[0px]' : ' h-screen pt-[20rem]'
+					showResult ? ' h-[0px]' : 'min-h-full h-screen pt-[20rem]'
 				}`}
 			>
 				<div
