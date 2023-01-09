@@ -225,7 +225,7 @@ function ScanResult() {
 					>
 						<div className="flex items-center justify-center mt-[6rem] bg-[#FF9E43] text-white rounded-full w-[37rem] h-[13rem] active:opacity-60 cursor-pointer animate-bounce">
 							<div className="text-center">
-								Cài đặt miễn phí ngay !{' '}
+								Cài đặt ngay miễn phí{' '}
 								<FileDownloadIcon
 									sx={{
 										fontSize: '4rem',

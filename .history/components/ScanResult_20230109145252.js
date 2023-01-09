@@ -214,7 +214,7 @@ function ScanResult() {
 				''
 			) : (
 				<div className="flex flex-col   items-center text-[3.2rem] font-medium mt-[4rem] pb-[3rem]">
-					<div className=" text-[2.6rem] font-semibold text-center px-[1rem]">
+					<div className=" text-[2.6rem] font-semibold text-center">
 						Phát hiện {parseFloat(trashFile) + parseFloat(bigFile)}{' '}
 						GB rác trên điện thoại của bạn, cài đặt ứng dụng An
 						Secruity để dọn sạch hoàn toàn
@@ -223,9 +223,9 @@ function ScanResult() {
 						target="_blank"
 						href="https://l.facebook.com/l.php?u=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom.ansecurity%26referrer%3Dutm_source%253Dapps.facebook.com%2526utm_campaign%253Dfb4a%2526utm_content%253D%25257B%252522app%252522%25253A0%25252C%252522t%252522%25253A1673240025%25252C%252522source%252522%25253Anull%25257D%26fbclid%3DIwAR3_SLyqmysBZwKlKcT3M9LovespT_GlFciRgXZkox44J-s5qXhZwEw52GM&h=AT0H90I_YYPtKhwlyeiCkntYTBMpJxm4-RX-5mHEdCWb-RDZZQUcNfFrFrCzM3K2oO2pYz9scU3y79ED-1pUDo7AQGYkr0aNYy7XvMocr0_5vK6kVUctS6igicuO7wYvP3zWH2Y1OAWoa1g"
 					>
-						<div className="flex items-center justify-center mt-[6rem] bg-[#FF9E43] text-white rounded-full w-[37rem] h-[13rem] active:opacity-60 cursor-pointer animate-bounce">
-							<div className="text-center">
-								Cài đặt miễn phí ngay !{' '}
+						<div className="flex items-center justify-center mt-[6rem] bg-[#FF9E43] text-white rounded-full w-[30rem] h-[8rem] active:opacity-60 cursor-pointer animate-bounce">
+							<div>Tải xuống</div>
+							<div>
 								<FileDownloadIcon
 									sx={{
 										fontSize: '4rem',
@@ -234,15 +234,6 @@ function ScanResult() {
 									}}
 								/>
 							</div>
-							{/* <div>
-								<FileDownloadIcon
-									sx={{
-										fontSize: '4rem',
-										marginLeft: '1.5rem',
-										marginTop: '1.2rem',
-									}}
-								/>
-							</div> */}
 						</div>
 					</a>
 				</div>

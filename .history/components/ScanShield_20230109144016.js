@@ -15,8 +15,8 @@ function ScanShield({ showResult }) {
 	return (
 		<div
 			className={`transition-all ease-in-out duration-[1500ms] ${
-				// display ? 'h-[38rem]' : 'h-[38rem]'
-				display ? 'h-[38rem]' : 'h-[0rem] opacity-0'
+				display ? 'h-[38rem]' : 'h-[38rem]'
+				// display ? 'h-[38rem]' : 'h-[0rem] opacity-0'
 			}`}
 		>
 			<div
@@ -30,8 +30,8 @@ function ScanShield({ showResult }) {
 							<div className="  bg-gradient-to-r from-[#2483EA] to-[#1A58FD] h-[32rem] w-[32rem] rounded-full flex items-center justify-center animate-spin"></div>
 							<div className=" bg-[#070446] h-[28rem] w-[28rem] rounded-full flex items-center justify-center absolute top-[3.2rem] ">
 								<img
-									src="/shieldLogo2023.png"
-									className=" absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[19rem] h-[19rem]"
+									src="/shieldLogo2023.jpg"
+									className=" absolute top-[1rem] right-[0.3rem]"
 									// className={`${
 									// 	stopAnimation ? '' : 'animate-ping'
 									// }`}
