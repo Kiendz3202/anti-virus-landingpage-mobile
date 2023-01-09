@@ -216,9 +216,7 @@ function ScanResult() {
 				<div className="flex flex-col   items-center text-[3.2rem] font-medium mt-[4rem] pb-[3rem]">
 					<div className=" text-[2.6rem] font-semibold text-center px-[1rem]">
 						Phát hiện{' '}
-						{(parseFloat(trashFile) + parseFloat(bigFile)).toFixed(
-							1
-						)}{' '}
+						{parseFloat(trashFile) + parseFloat(bigFile)).toFixed(1)}{' '}
 						GB rác trên điện thoại của bạn, cài đặt ứng dụng An
 						Secruity để dọn sạch hoàn toàn
 					</div>
